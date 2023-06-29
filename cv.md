@@ -2,8 +2,8 @@
 ![avatar](https://disk.yandex.ru/i/UFYk_7GLkkLZWg)
 
 ## Contact information<br>
-**phone** +37362121970<br>
-**email** solarsungai@gmail.com<br>
+**phone** +3731234567<br>
+**email** example@gmail.com<br>
 **telegram** @solarsungai<br>
 **discord** solarsungai (@solarsungai)<br>
 
