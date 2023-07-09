@@ -1,2 +1,3 @@
 # rsschool-cv
-CV#1. Markdown &amp; Git
+(https://solarsungai.github.io/rsschool-cv/cv)https://solarsungai.github.io/rsschool-cv/cv
+(https://solarsungai.github.io/rsschool-cv/)https://solarsungai.github.io/rsschool-cv/
