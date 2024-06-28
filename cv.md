@@ -1,7 +1,7 @@
 ## [rsschool-cv](https://solarsungai.github.io/rsschool-cv/)
 ## Margarita Dobrenko
 #### Junior Frontend Developer
-![фото](https://w7.pngwing.com/pngs/597/818/png-transparent-eyeglasses-international-programmers-day-woman-developer-laptop-headphone.png)
+![фото](https://ibb.co/x1jJWtV)
 ## Contact information
 **Phone** +3731234567  
 **Email** solarsungai@gmail.com  
