@@ -1,3 +1,12 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+  
 .header {
     font-family: "Raleway", sans-serif;
     display: block;
@@ -142,7 +151,7 @@ ul {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     margin: 0 auto;
     color: #fff;
@@ -174,4 +183,12 @@ html {
   
 .link:hover {
     color: #c17d31;
+}
+
+.rss {
+    height: 24px;
+    width: 24px;
+    background-image: url("assets/img/RSlogo.jpg");
+    background-size: contain;
+    margin-left: 60px;
 }
