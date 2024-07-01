@@ -15,6 +15,7 @@ I have experience as a marketing specialist for 7 years since 2016. All this tim
 * CSS
 * JavaScript (Basic)
 * Git
+
 ## Code Example
 ```
  let hundreds = ['one hundred', 'two hundred', 'three hundred', 'four hundred', 
