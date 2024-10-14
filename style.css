@@ -11,7 +11,7 @@ h1 {
     font-family: "Raleway", sans-serif;
     display: block;
     background-color: #cbcaca;
-    font-size: 24px;
+    font-size: 2.25vh;
 }
 
 .nav-list {
@@ -63,20 +63,20 @@ h1 {
     flex-direction: column;
 }
 
-.cv-letters{
+.cv-letters {
     font-size: 18px;
     margin-bottom: 15px;
     margin-left: 20px;
 }
 
-.my-name{
+.my-name {
     font-weight: 500;
     font-size: 64px;
     margin-left: 5px;
     margin-bottom: 15px;
 }
 
-.job-title{
+.job-title {
     font-style: italic;
     font-size: 24px;
     margin-left: 60px;
@@ -142,6 +142,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0;
 }
 
 .footer {
@@ -192,3 +193,94 @@ html {
     background-size: contain;
     margin-left: 50px;
 }
+
+@media (max-width: 960px) {
+    .nav-link {
+        padding: 0 10px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .header {
+        font-size: 2vh;
+    }
+
+    .nav-link {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        font-size: 1.8vh;
+    }
+
+    .nav-link {
+        padding: 0 7px;
+    }
+}
+
+@media (max-width: 645px) {
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-list {
+        width: 20vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link {
+        line-height: 2.77vh;;
+    }
+
+    .top {
+        position: absolute;
+        top: 0;
+    }
+
+    .wrapper-top {
+        width: 70vw;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cv-logo {
+        width: 25%;
+        padding-top: 10%;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .circle {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .inner-circle {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .my-logo-name {
+        font-size: 5vh;
+    }
+
+    .cv-letters {
+        margin-left: 0;
+    }
+
+    .my-name {
+        font-size: 5vh;
+        margin-left: 0;
+    }
+
+    .job-title {
+        margin-left: 0;
+    }
+}
+
