@@ -7,7 +7,7 @@ body {
 .header {
     font-family: "Raleway", sans-serif;
     background-color: #cbcaca;
-    font-size: 2.25vh;
+    font-size: 2.2vh;
 }
 
 .nav {
@@ -294,23 +294,31 @@ html {
     .circle {
         width: 16vw;
         height: 16vw;
+        border: 4px solid #ffffff;
     }
 
     .inner-circle {
         width: 16vw;
         height: 16vw;
+        background-color: #cbcaca;
     }
 
     .my-logo-name {
+        color: #ffffff;
         font-size: 5vh;
     }
 
+    .cv-title {
+        justify-content: center;
+    }
+
     .cv-letters {
+        color: #ffffff;
         margin-left: 0;
     }
 
     .my-name {
-        font-size: 5vh;
+        font-size: 6.3vw;
         margin-left: 0;
     }
 
@@ -319,3 +327,20 @@ html {
     }
 }
 
+@media (max-width: 590px) {
+    .nav-list {
+        width: 23vw;
+        font-size: 3.3vw;
+    }
+
+    .my-logo-name {
+        color: #ffffff;
+        font-size: 9vw;
+    }
+
+    .cv-logo {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+    }
+}
