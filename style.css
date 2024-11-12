@@ -320,10 +320,12 @@ html {
     .my-name {
         font-size: 6.3vw;
         margin-left: 0;
+        color: #535556;
     }
 
     .job-title {
         margin-left: 0;
+        color: #535556;
     }
 }
 
@@ -342,5 +344,31 @@ html {
         padding-top: 0;
         display: flex;
         align-items: center;
+    }
+
+    .wrapper-column {
+        flex-direction: column;
+        border-top: 4px solid black;
+    }
+
+    .left-column {
+        width: 90%;
+        padding-bottom: 0;
+        border-top: 0;
+    }
+
+    .avatar {
+        max-width: 300px;
+    }
+
+    .right-column {
+        width: 90%;
+        padding: 0 20px 0 20px;
+        border-left: 0;
+        border-top: 0;
+    }
+
+    .container {
+        justify-content: space-between;
     }
 }
