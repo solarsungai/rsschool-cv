@@ -322,10 +322,12 @@ html {
     .my-name {
         font-size: 6.3vw;
         margin-left: 0;
+        color: #535556;
     }
 
     .job-title {
         margin-left: 0;
+        color: #535556;
     }
 }
 
@@ -346,10 +348,6 @@ html {
         align-items: center;
     }
 
-    .section-item {
-        word-break: break-all;
-    }
-
     .wrapper-column {
         flex-direction: column;
         border-top: 4px solid black;
@@ -357,24 +355,22 @@ html {
 
     .left-column {
         width: 90%;
-        border-top: 0;
         padding-bottom: 0;
+        border-top: 0;
     }
 
     .avatar {
         max-width: 300px;
-        justify-self: center;
     }
 
     .right-column {
-        border-top: 0;
-        border-left: 0;
         width: 90%;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0 20px 0 20px;
+        border-left: 0;
+        border-top: 0;
     }
 
     .container {
         justify-content: space-between;
-    };
+    }
 }
